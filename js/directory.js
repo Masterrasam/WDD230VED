@@ -1,4 +1,4 @@
-const requestURL = "https://masterrasam.github.io/wdd_230_dev1/json/data.json";
+const requestURL = "https://masterrasam.github.io/WDD230VED/json/data.json";
 
 fetch(requestURL)
   .then(function (response) {
