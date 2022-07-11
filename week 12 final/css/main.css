@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Domine', serif;
+    font-family: 'Gwendolyn', cursive; 
+    font-size: 20px;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: #012A36;
+    text-decoration: none;
+} 
+
+/*Navigation Menu*/
+nav {
+    background-color: #D8D0C1;
+    margin-bottom: 0px;
+    padding: 15px;
+ }
+ 
+ nav a {
+    color: #012A36;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+ }
+ 
+ nav li {
+    padding: 10px;
+ }
+ 
+ #current-page a {
+    color: #FFF;
+    background-color: #012A36;
+ }
+ 
+ #current-page {
+    background-color: #012A36;
+ }
+ 
+ .menu {
+    list-style: none;
+    display: none;
+ }
+
+ .responsive {
+    display: block;
+    list-style: none;
+ }
+ 
+ ul li {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5em;
+ }

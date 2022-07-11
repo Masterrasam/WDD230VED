@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  
+  h1,
+  h2 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #004744;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    margin: 3px 0;
+    padding-bottom: 4px;
+  }
+  
+  img {
+    width: 80%;
+    box-shadow: 0px 0px 15px 5px #507d73;
+  }
+  
+  main {
+    box-shadow: 0px 0px 10px 10px #c8c8c8;
+    padding: .1rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    max-width: 1500px;
+  }
+  
+  section {
+    background: linear-gradient(0.50turn, #d0ebe8, #edf2d3, #d0ebe8);
+    border: 2px solid #004744;
+    padding-bottom: 12px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 7px;
+    margin: 1rem;
+  }

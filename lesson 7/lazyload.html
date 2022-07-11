@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progressive Image Loading</title>
+    <meta
+      name="description"
+      content="Activity showing how to do progressive loading of images."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1> Lazy Loading images</h1>
+    <div>
+      <picture>
+        <img
+          src="images/ph300.webp"
+          data-src="images/sea.webp"
+          alt="sea"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/ph300.webp"
+          data-src="images/rocket.webp"
+          alt="rocket"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/ph300.webp"
+          data-src="images/city.webp"
+          alt="city"
+        />
+      </picture>
+      <picture
+        <img
+          src="images/ph300.webp"
+          data-src="images/boy.webp"
+          alt="boy"
+        />
+      </picture>
+      <picture>
+        <img
+          src="images/ph300.webp"
+          data-src="images/bed.webp"
+          alt="bed"
+        />
+      </picture>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

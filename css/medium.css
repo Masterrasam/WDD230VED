@@ -1,0 +1,119 @@
+@media only screen and (min-width: 600px) {
+  nav button {
+    margin-top: -0.6rem;
+    font-size: 2.5rem;
+  }
+  #banner {
+    font-size: 1.2rem;
+  }
+
+  header {
+    grid-template-columns: 120px auto 110px 40px;
+    padding: 20px 20px 10px 20px;
+  }
+
+  header .social img {
+    width: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 0.3;
+    padding-left: 15px;
+  }
+
+  header #toplogo img {
+    width: 125px;
+  }
+
+  #smtitle {
+    font-size: 18px;
+  }
+
+  nav ul li a {
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* tablet grid layout */
+  .hero {
+    grid-column: 1/3;
+  }
+
+  .event {
+    grid-row: 5/6;
+  }
+
+  .weather {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+
+  .news {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .join {
+    display: block;
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  .spotlight {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* footer */
+  .lower {
+    grid-template-columns: 150px 1fr 1fr;
+    padding: 15px 40px 10px 40px;
+    align-items: center;
+  }
+  .web {
+    text-align: right;
+  }
+
+  /* ---DISCOVER PAGE----- */
+
+  .gallery {
+    gap: 0;
+  }
+  .gallery img:hover {
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+  }
+
+  .gallery img {
+    margin: 10px;
+  }
+
+  /*--------JOIN PAGE------*/
+  .main-join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mem-form h2 {
+    font-size: 1.8rem;
+  }
+
+  .memberships {
+    grid-column: 2/3;
+    margin-top: 70px;
+  }
+
+  .memberships div {
+    border: 10px double black;
+    margin: 0 0 15px 30px;
+  }  
+  .groups {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "directory": [
+        {
+            "logo": "golf.svg",
+            "companyName": "The Landslide Country Club",
+            "address": "22 Hills Country  Hollyhill, FL 32117",
+            "phoneNumber": "(386) 238-2142",
+            "website": "www.thehillscountryclub.com",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "logo": "inn.svg",
+            "companyName": "Wedgewood Inn",
+            "address": "111 W Bridge St New Hope, PA 18938",
+            "phoneNumber": "(215) 862-2570",
+            "membershipLevel": "Bronze Membership"
+        },
+        {
+            "logo": "vet.svg",
+            "companyName": " VCA animals Hospital",
+            "address": "12401 West Olympic Blvd. los Angles, CA, 90064",
+            "phoneNumber": "13105716500",
+            "website": "https://vcahospitals.com/",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "logo": "hock.jpg",
+            "companyName": "flowers by NDIANI",
+            "address": "25 osuntokun avenue ",
+            "phoneNumber": "08057006207",
+            "membershipLevel": "Bronze Membership"
+        },
+        {
+            "logo": "candy.webp",
+            "companyName": "New Albany Sugar Shoppe",
+            "address": "56 Pearl Street New Albany, IN 47150",
+            "phoneNumber": "8129203016",
+            "website": "newalbanysugarshoppe@gmail.com",
+            "membershipLevel": "Silver Membership"
+        },
+        {
+            "logo": "icecream.jpg",
+            "companyName": "Holly Berry Ice Cream",
+            "address": "77 Berry Ice Ave. Hollyhill, FL 32117",
+            "phoneNumber": "(386) 238-7147",
+            "website": "www.berryicecream.com",
+            "membershipLevel": "Gold Membership"
+        },
+        {
+            "logo": "food.jpg",
+            "companyName": "The Golden Hills Cafe",
+            "address": "88 Goldens Drive Hollyhill, FL 32117",
+            "phoneNumber": "(386) 238-8148",
+            "membershipLevel": "Silver Membership"
+        },
+
+        {
+            "logo": "ame.jpg",
+            "companyName": "water park",
+            "address": "4701 Great America Pkwy, Santa Clara, CA 95054, United States",
+            "phoneNumber": "+1 408-988-1776",
+            "website": "www.goldenscafe.com",
+            "membershipLevel": "Silver Membership"
+        },
+        {
+            "logo": "bank.png",
+            "companyName": "united Credit Union",
+            "address": "99 Union Hill Ct. Hollyhill, FL 32117",
+            "phoneNumber": "(386) 238-9149",
+            "website": "www.hhcreditunion.com",
+            "membershipLevel": "Gold Membership"
+        }
+] 
+}
+    

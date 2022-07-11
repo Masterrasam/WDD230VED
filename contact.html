@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Informations Page</title>
+    <meta
+      name="description"
+      content="Contact Information is on this page as well as a reply request form."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" 
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="hillyicon.ico" />
+  </head>
+  <body>
+    <header>
+      <picture id="toplogo">
+        <img src="images/sam.jpg" alt="Sammy logo" />
+      </picture>
+      <h1>
+        SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
+      </h1>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="blank"
+          ><img src="images/fbicon.webp" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.linkedin.com/" target="blank">
+          <img src="images/twit.webp" alt="Twitter Icon"
+        /></a>
+      </div>
+      <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+      <nav>
+        <ul id="mainNav">
+          <li><a href="index.html" title="SAMMY Home Page">Home</a></li>
+          <li><a href="discover.html" title="Town Information">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li>
+            <a href="join.html" title="Join the SAMMY Chamber">Join</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Information" class="active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="currentDate">
+      <span>Date</span>
+    </div>
+    <aside id="banner">
+      "Come join us for the chamber meet and greet Monday at 9:00 a.m." - - -
+      - - &nbsp;<button id="close">&#10060;</button>
+    </aside>
+
+    <main>
+      <h2 class="ct">Contact the SAMMY Chamber of Commerce</h2>
+      <div class="contact">
+        <div class="cham-info">
+          <p><strong>OUR LOCATION</strong></p>
+          <hr />
+          <p>SAMMY Chamber of Commerce</p>
+          <p>24 lycon street, lagos, Nigeria</p>
+          <p>Monday - Friday 9am - 5pm</p>
+          <br />
+          <p><strong>LEADERSHIP CONTACTS</strong></p>
+          <hr />
+          <p>Sammy Rogers</p>
+          <p>President & CEO</p>
+          <p>(386) 248-2232</p>
+          <br />
+          <p>Esther Benson</p>
+          <p>Marketing Director</p>
+          <p>(386) 248-2212</p>
+          <br />
+          <p>Oliver Crust</p>
+          <p>Operations Assistant</p>
+          <p>(386) 248-2421</p>
+          <br />
+          <p>Grace Atom</p>
+          <p>Project Manager</p>
+          <p>(386) 248-1112</p>
+        </div>
+        <div id="con-img">
+          <picture>
+            <source
+              srcset="images/contact.jpg"
+              media="(min-width: 800px)"
+            />
+            <img src="images/contact.jpg" alt="SAMMY Landscape" />
+          </picture>
+        </div>
+      </div>
+      <h2 class="band">Chamber Contact Form</h2>
+      <form class="mem-info" action="thankyou.html">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label class="sec1">
+            Full Name*<input type="text" name="fullname" required />
+          </label>
+          <label class="sec1">
+            Email*<input type="email" name="email" required />
+          </label>
+          <label class="sec1">
+            Cell Phone Number<input type="tel" name="cell" />
+          </label>
+          <label class="sec1">
+            Company<input type="text" name="company" />
+          </label>
+          <label class="sec1">
+            Business Address<input type="text" name="address" />
+          </label>
+          <br />
+          <p>Are You A Member of the SAMMY Chamber?</p>
+          <label><input type="checkbox" name="member" value="Yes" />Yes</label
+          ><br />
+          <label><input type="checkbox" name="non-member" value="No" />No</label
+          ><br />
+          <label class="sec1">
+            Comments/Questions
+            <textarea name="business description" maxlength="300"></textarea>
+          </label>
+          <button class="send sndc" type="submit" value="submit">
+            Send Comment or Question
+          </button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <section class="lower">
+        <div>
+          <img
+            id="bottom-logo"
+            src="images/sam.jpg"
+            alt="SAMMY Logo"
+          />
+        </div>
+        <div class="address">
+          <h3>SAMMY Chamber of Commerce</h3>
+          <p>24 LYCON STREET<br />LAGOS, NIGERIA</p>
+        </div>
+        <div class="web">
+          <p>Samuelokoosi21@gmail.Com <br />+2348039875258</p>
+          <a href="https://goo.gl/maps/Gpf3XYnjxTawLKYs9"
+            ><img id="pin" src="images/pin.png" alt="Location Pin" /> Location
+            Map</a
+          >
+        </div>
+      </section>
+      <p id="lastline">
+        &copy; <span id="currentYear"></span> SAMMY Chamber | Samuel
+        Okoosi | WDD 230 Project |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | Last
+        Updated: <span id="modDate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+  </body>
+</html>

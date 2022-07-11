@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> SAMMY Chamber</title>
+    <meta
+      name="description"
+      content="The homepage for the SAMMY Chamber of Commerce to showcase 
+      businesses in the area, help business owners network, help new people 
+      moving into the area find businesses and discover activities, events, weather 
+      and how to join the chamber."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" 
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <picture id="toplogo">
+        <img src="images/sam.jpg" alt="Sammy Logo" />
+      </picture>
+      <h1>
+        SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
+      </h1>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="blank"
+          ><img src="images/fbicon.webp" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.twitter.com/" target="blank">
+          <img src="images/twit.webp" alt="Twitter Icon"
+        /></a>
+      </div>
+      <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+      <nav>
+        <ul id="mainNav">
+          <li>
+            <a href="index.html" title="sammy Home Page" class="active"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="discover.html" title="Demographics of SAMMY"
+              >Discover</a
+            >
+          </li>
+          <li><a href="directory.html">Directory</a></li>
+          <li>
+            <a href="join.html" title="Join the SAMMY Chamber">Join</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="currentDate">
+      <span>Date</span>
+    </div>
+    <aside id="banner">
+      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." - - -
+      - - &nbsp;<button id="close">&#10060;</button>
+    </aside>
+    <main>
+      <section class="boxes">
+        <div class="hero">
+          <picture class="hero-image">
+            <source
+              srcset="images/cha.jpg"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/char.jpg"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/char.jpg" alt="hill" />
+          </picture>
+          <h2 class="tbox" id="welcome">Welcome to SAMMY CHAMBERS!</h2>
+          <div class="hero-cta">
+            <a href="join.html">Join the Chamber</a>
+          </div>
+        </div>
+        <div class="event">
+          <picture>
+            <source
+              srcset="images/butterfly.webp"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/butterfly.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/fireworks542.webp" alt="butterfly" />
+          </picture>
+          <h2 class="tbox">Event</h2>
+          <p>4th of May fireworks at wollington at 8 pm.</p>
+        </div>
+        <div class="weather">
+          <h2 class="tbox">Weather</h2>
+          <div class="info">
+            <p id="w1"><span id="current-temp"></span>&#176;F</p>
+            <figure id="w4">
+              <span id="iconsrc"></span>
+              <img id="weather-icon" alt="weather" width="30" />
+              <figcaption></figcaption>
+            </figure>
+            <p id="w2">Wind Speed: <span id="windspeed"></span> mph</p>
+            <p id="w3">Wind Chill: <span id="windchill"></span></p>
+          </div>
+        </div>
+        <div class="news">
+          <picture>
+            <source
+              srcset="images/apex.jpg"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/apex.jpg"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/lol.png" alt="wrigley field" />
+          </picture>
+          <h2 class="tbox">News - APEX LEGEND MOBILE IS OUT!!!</h2>
+          <p>
+            The best of the best RPG Game is now on Mobile, Go check it out and Have fun
+          </p>
+        </div>
+        <div class="join">
+          <picture>
+            <source
+              srcset="images/chamb.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/chamb.webp" alt="Chamber Building" />
+          </picture>
+          <h2 class="tbox">SAMMY Chamber</h2>
+          <div class="join-cta">
+            <a href="join.html">Join the Chamber</a>
+          </div>
+          <p>Join the SAMMY Chamber of Commerce.</p>
+        </div>
+        <div class="spotlight spotlight-container">
+          <div class="busSec">
+            <p class="busName"></p>
+            <img class="busLogo" alt="bus" />
+            <p class="busPhone"></p>
+            <p class="busWebsite"></p>
+            <hr />
+            <p class="busMembership"></p>
+          </div>
+          <div class="busSec">
+            <p class="busName"></p>
+            <img class="busLogo"  alt="bus" />
+            <p class="busPhone"></p>
+            <p class="busWebsite"></p>
+            <hr />
+            <p class="busMembership"></p>
+          </div>
+          <div class="busSec">
+            <p class="busName"></p>
+            <img class="busLogo"  alt="bus" />
+            <p class="busPhone"></p>
+            <p class="busWebsite"></p>
+            <hr />
+            <p class="busMembership"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="lower">
+        <div>
+          <img
+            id="bottom-logo"
+            src="images/sam.jpg"
+            alt="Sammy Logo"
+          />
+        </div>
+        <div class="address">
+          <h3>Sammy Chamber of Commerce</h3>
+          <p>24 lycon street<br />lagos Nigeria</p>
+        </div>
+        <div class="web">
+          <p>samuelokoosi21@gmail.com <br />+2348039875258</p>
+          <a href="https://goo.gl/maps/Gpf3XYnjxTawLKYs9"
+            ><img id="pin" src="images/pin.png" alt="Location Pin" /> Location
+            Map</a
+          >
+        </div>
+      </section>
+      <p id="lastline">
+        &copy; <span id="currentYear"></span> SAMMY Chamber | Samuel
+        Okoosi | WDD 230 Project |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | last
+        Updated: <span id="modDate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/spotlight.js"></script>
+  </body>
+</html>

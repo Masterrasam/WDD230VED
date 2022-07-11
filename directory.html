@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Business Directory</title>
+    <meta
+      name="description"
+      content="A business directory for the members of the SAMMY Chamber of Commerce."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" 
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <picture id="toplogo">
+        <img src="images/sam.jpg" alt="sammy Logo" />
+      </picture>
+      <h1>
+        SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
+      </h1>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="blank"
+          ><img src="images/fbicon.webp" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.twitter.com/" target="blank">
+          <img src="images/twit.webp" alt="Twitter Icon"
+        /></a>
+      </div>
+      <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+      <nav>
+        <ul id="mainNav">
+          <li>
+            <a href="index.html" title="Sammy Home Page">Home</a>
+          </li>
+          <li>
+            <a href="discover.html" title="Demographics of Sammy"
+              >Discover</a
+            >
+          </li>
+          <li>
+            <a href="directory.html" title="Business Directory" class="active"
+              >Directory</a
+            >
+          </li>
+          <li>
+            <a href="join.html" title="Join the Sammy Chamber">Join</a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="currentDate">
+      <span>Date</span>
+    </div>
+    <aside id="banner">
+      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." - - -
+      - - &nbsp;<button id="close">&#10060;</button>
+    </aside>
+    <main>
+      <h2 id="directory-title">Business Directory</h2>
+      <div class="grid-buttons">
+        <button id="grid">GRID</button>
+        <button id="list">LIST</button>
+      </div>
+      <div class="groups"></div>
+    </main>
+    <footer>
+      <section class="lower">
+        <div>
+          <img
+            id="bottom-logo"
+            src="images/sam.jpg"
+            alt="SAMMY Logo"
+          />
+        </div>
+        <div class="address">
+          <h3>Sammy Chamber of Commerce</h3>
+          <p>no 1, opeoluwa street, molete<br />Ibadan, Nigeria</p>
+        </div>
+        <div class="web">
+          <p>Samuelokoosi21@gmail.com<br />+2348039875258</p>
+          <a href="https://goo.gl/maps/Gpf3XYnjxTawLKYs9"
+            ><img id="pin" src="images/pin.png" alt="Location Pin" /> Location
+            Map</a
+          >
+        </div>
+      </section>
+      <p id="lastline">
+        &copy; <span id="currentYear"></span> Sammy Chamber | Samuel
+        Okoosi| WDD 230 Project | Last Updated: <span id="modDate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+  </body>
+</html>
