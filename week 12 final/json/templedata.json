@@ -1,0 +1,68 @@
+{
+    "temples": [{
+        "featured": "Yes",
+        "imageSrc": "https://masterrasam.github.io/WDD230VED/week12final/images/jordan-river-temple-large.jpg",
+        "imageSrcSmall": "https://masterrasam.github.io/WDD230VED/week12final/images/jordan-river-temple-large.jpg",
+        "imageAlt": "A view of the Jordan River Temple",
+        "name": "Jordan River",
+        "description": "The beautiful Jordan River Utah Temple was the seventh temple built in Utah, dedicated unto the Lord in 1981. Marion G. Romney, a member of the church's First Presidency, dedicated the Jordan River Temple in fifteen sessions held during November 16-20, 1981. More than 160,000 members attended the dedicatory services. Thirty of those in attendance at the dedication were elderly men and women who had been at the historic dedication of the first temple in the Salt Lake Valley, the Salt Lake Temple.Most had been very young at the time but still remembered the event. It was closed for extensive renovations in August 2015, and rededicated three years later in May 2018 by President Henry B Eyring of the First Presidency.",
+        "phoneNumber": "(+1) 801-254-3003",
+        "streetAddress": "10200 South 1300 West",
+        "cityState": "South Jordan, Utah",
+        "zip": "84095-8814",
+        "ordinanceSchedule": ["Baptisms: 5:00 AM - 8:00 PM (Walk-ins & Appointments)", "Initiatory: 6:00 AM - 8:00 PM (Walk-ins Only)", "Endowments: 1:20 - 1:40 pm (Walk-ins Only), 2:00 pm (Walk-ins & Appointments), 2:20 pm (Walk-ins Only)", "Sealings: 7:00 AM - 8:00 PM (Walk-ins & Appointments)"],
+        "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: No"],
+        "closures": ["Monday, 3 June 2019 - Monday, 17 June 2019", "Thursday, 4 July 2019", "Wednesday, 24 July 2019", "Saturday, 5 October 2019", "Wednesday, 27 November 2019 (Limited Hours)", "Thursday, 28 November 2019", "Monday, 9 December 2019 - Monday, 23 December 2019", "Tuesday, 24 December 2019", "Wednesday, 25 December 2019", "Tuesday, 31 December 2019 (Limited Hours)"]
+      },
+  
+      {
+        "featured": "No",
+        "imageSrc": "https://masterrasam.github.io/WDD230VED/week12final/images/salt-lake-temple-large.jpg",
+        "imageSrcSmall": "https://masterrasam.github.io/WDD230VED/week12final/images/salt-lake-temple-small.jpg",
+        "imageAlt": "A view of the Salt Lake Temple",
+        "name": "Salt Lake",
+        "description": "The Salt Lake City Utah Temple took 40 years to build, with its highly ornate interior being completed in just a year. It was the only temple dedicated by President Wilford Woodruff, in April 1893. Positioned on Salt Lake City's center block, known as Temple Square, the spires of the Salt Lake Temple rise amid downtown high-rises and super malls. Every holiday season, Temple Square is transformed into a highly popular display of hundreds of thousands of Christmas lights. In General Conference April 2019, President Russel M Nelson announced that the Salt Lake Temple will be closing for extensive renovations.",
+        "phoneNumber": "(1) 801-240-2640",
+        "streetAddress": "50 W North Temple St",
+        "cityState": "Salt Lake City UT",
+        "zip": "84150-9709",
+        "ordinanceSchedule": ["Baptisms: 5:00 AM - 8:00 PM (Walk-ins & Appointments)", "Initiatory: 6:00 AM - 8:00 PM (Walk-ins Only)", "Endowments: 1 PM (Walk-ins & Appointments), 3 - 4 PM (Walk-ins Only)", "Sealings: 7:00 AM - 8:00 PM (Walk-ins & Appointments)"],
+        "services": ["Rental Clothing: Available", "Cafeteria: Available", "Distribution Center Nearby: Yes"],
+        "closures": ["Tuesday, 2 July 2019 - Monday, 15 July 2019", "Wednesday, 24 July 2019", "Saturday, 5 October 2019", "Wednesday, 27 November 2019 (Limited Hours)", "Thursday, 28 November 2019 - Friday, 29 November 2019", "Tuesday, 24 December 2019 - Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
+      },
+  
+  
+      {
+        "featured": "No",
+        "imageSrc": "https://masterrasam.github.io/WDD230VED/week12final/images/draper-temple-large.jpg",
+        "imageSrcSmall": "https://masterrasam.github.io/WDD230VED/week12final/images/draper-temple-small.jpg",
+        "imageAlt": "A view of the Draper Temple",
+        "name": "Draper",
+        "description": "The Draper Utah Temple was the twelfth temple built in Utah and the third built in the Salt Lake Valley, following the Salt Lake Temple and the Jordan River Temple. It was dedicated in March 2009 by Thomas S. Monson. During its two-month open house, 684,721 visitors toured the interior of the Draper Utah Temple, making it one of the most widely attended temple open houses in the Church.",
+        "phoneNumber": "(1) 801-576-4240",
+        "streetAddress": "14065 Canyon Vista Ln",
+        "cityState": "Draper UT",
+        "zip": "84020-5626",
+        "ordinanceSchedule": ["Baptisms: 6:00 AM - 8:15 PM (Walk-ins & Appointments)", "Initiatory: 7:00 AM - 8:15 PM (Walk-ins Only)", "Endowments: 2 - 5 PM (Walk-ins & Appointments)", "Sealings: 8:00 AM - 8:15 PM (Walk-ins & Appointments)"],
+        "services": ["Rental Clothing: Unavailable", "Cafeteria: Unavailable", "Distribution Center Nearby: Yes"],
+        "closures": ["Thursday, 4 July 2019", "Wednesday, 24 July 2019", "Monday, 29 July 2019 - Monday, 12 August 2019", "Saturday, 5 October 2019", "Wednesday, 27 November 2019 (Limited Hours)", "Thursday, 28 November 2019", "Tuesday, 24 December 2019", "Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
+      },
+  
+      {
+        "featured": "No",
+        "imageSrc": "https://masterrasam.github.io/WDD230VED/week12final/images/tooele-valley-temple-large.jpg",
+        "imageSrcSmall": "https://masterrasam.github.io/WDD230VED/week12final/images/tooele-valley-temple-small.jpg",
+        "imageAlt": "Temple Image coming soon",
+        "name": "Tooele Valley",
+        "description": "The Tooele Valley Temple was announced in the Sunday afternoon session of General Conference, April 2019, by President Russel M Nelson. Details forthcoming.",
+        "phoneNumber": "TBA",
+        "streetAddress": "TBA",
+        "cityState": "TBA",
+        "zip": "TBA",
+        "ordinanceSchedule": ["Baptisms: TBA", "Initatory: TBA", "Endowments: TBA", "Sealings: TBA"],
+        "services": ["Rental Clothing: TBA", "Cafeteria: TBA", "Distribution Center Nearby: TBA"],
+        "closures": ["TBA"]
+      }
+  
+    ]
+  }

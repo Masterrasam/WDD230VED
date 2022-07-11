@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Temple Inn & Suites Home Page</title>
+    <meta
+      name="description"
+      content="Home page for the Temple Inn & Suites hotel where 
+    temple workers and patrons can stay when traveling to work in or attend the temple."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Gwendolyn:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="samicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/tlogo.svg"
+        alt="Temple Inn & Suites Logo"
+        class="logo"
+      />
+      <h1>Temple Inn & Suites</h1>
+    </header>
+
+    <nav>
+      <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="temples.html">Temples</a></li>
+        <li id="current-page"><a href="guest-portal.html">Guest Portal</a></li>
+        <li><a href="reservation.html">Book Reservation</a></li>
+      </ul>
+    </nav>
+    <main class="fade">
+      <section>
+        <h2>Thank You</h2>
+        <p>
+          Your information has been recieved and will be processes shortly.
+          Please allow 1 - 3 business days for a representative to contact you.
+          <a href="index.html">Please click here</a> to return to the main page.
+          Do not use your browser's back button.
+        </p>
+        <picture>
+          <source srcset="images/thanks-small.jpg" media="(max-width: 600px)" />
+          <img
+            src="images/thanks-large.jpg"
+            class="featured"
+            alt="Two people shaking hands"
+          />
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div>
+          <img
+            id="bottom-logo"
+            src="images/tlogo.svg"
+            alt="Temple Inn Logo"
+            width="150"
+          />
+        </div>
+        <div class="address">
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300 <br />Bethesda, MD 20814</p>
+        </div>
+        <div class="web">
+          <p>templeinnandsuites.com <br />(386) 248-2424</p>
+          <a href="https://goo.gl/maps/FRgi5k49Jti4teqC9"
+            ><img id="pin" src="images/pin.svg" alt="Location Pin" width="20" />
+            Location Map</a
+          >
+        </div>
+      </section>
+      <hr />
+      <p id="temple-foot">
+        &copy; <span id="currentYear"></span> Temple Inn & Suites |
+        <a href="contact.html">Contact Us</a> |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | Last
+        Updated: <span id="modDate"></span>
+      </p>
+      <p class="sub-footer">
+        <a href="attributions.html">Attributions</a> |
+        <span>Samuel Olanrewaju Okoosi</span>
+      </p>
+      <script src="js/main-script.js"></script>
+      <script src="js/menu-script.js"></script>
+    </footer>
+  </body>
+</html>

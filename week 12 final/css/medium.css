@@ -1,0 +1,184 @@
+@media only screen and (min-width: 600px) {
+    body {
+      margin: 0px auto;
+      max-width: 800px;
+    }
+  
+    header {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    header img {
+      left: 40px;
+      max-width: 100px;
+    }
+  
+    h1 {
+      font-size: 2.3rem;
+    }
+  
+    button {
+      font-size: 1.2rem;
+    }
+  
+    .heading-banner {
+      font-size: 2em;
+      text-align: right;
+    }
+  
+    .block {
+      max-width: 600px;
+      height: 100%;
+    }
+  
+    .feature-para {
+      padding: 2rem 4rem;
+    }
+  
+    /*====Navigation Bar====*/
+    .menu-link {
+      display: none;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+  
+    nav li {
+      float: left;
+    }
+  
+    nav ul li a {
+      padding: 20px;
+      font-size: 1.05rem;
+    }
+  
+    .menu {
+      display: inline;
+    }
+  /*====Footer====*/
+  footer div {
+      padding: 20px 20px 0 0;
+  }
+  
+  .lower {
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 0 40px 10px 40px;
+      align-items: center;
+    }
+  
+  .web {
+      text-align: right;
+    }
+  
+  .address {
+      text-align: left;
+  }
+  
+    /*===Scroll====*/
+    .scroll {
+      height: 400px;
+    }
+  
+    .sm-scroll {
+      height: 150px;
+    }
+  
+    .dc-scroll {
+      background-image: url("images/dcpm.webp");
+    }
+  
+    .res-scroll {
+      background-image: url("images/twins.jpg");
+    }
+  
+    .feature-scroll {
+      background-image: url("images/dcday.jpeg");
+    }
+  
+    /*====Welcome====*/
+    .welcome-image {
+      float: left;
+      margin: 0px 20px 15px 0px;
+    }
+  
+    /*====Weather====*/
+    .weather {
+      display: flex;
+      grid-template-columns: auto auto;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+  
+    .w-icon {
+      width: 80px;
+    }
+  
+    .currentWeather {
+      grid-column: 1/2;
+    }
+  
+    /*====Services====*/
+    .serv-img {
+      margin: 40px 10px 5px;
+    }
+  
+    .sp-services p {
+      padding: 1.5rem 8rem 2rem;
+    }
+  
+  /*====Contact====*/  
+    /**/
+  
+    /*====Reservation====*/
+  .res-form {
+      margin: 50px;
+  }    
+      
+  /*---*/
+  
+    .featured {
+      width: 100%;
+      max-width: 664px;
+    }
+  
+    .img-wrap {
+      max-width: none;
+      margin: 0 auto;
+    }
+  
+    .inner-wrap {
+      max-width: 600px;
+    }
+  
+    section.threeColumn {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 0 25px;
+      max-width: 900px;
+    }
+  
+    section a:hover,
+    div a:hover {
+      color: #ffad05;
+    }
+  
+    #item1 {
+      grid-row-start: 2;
+      grid-column-start: 1;
+    }
+  
+    #item2 {
+      grid-row-start: 2;
+      grid-column-start: 2;
+    }
+  
+    #item3 {
+      grid-row-start: 2;
+      grid-column-start: 3;
+    }
+  }

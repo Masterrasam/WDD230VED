@@ -1,0 +1,99 @@
+{
+    "temples": [
+    {
+        "image": "philly.jpg",
+        "imageSmall": "phillysm.jpg",
+        "name": "Philadelphia Pennsylvania Temple",
+        "streetAddress": "1739 Vine Street",
+        "cityState": "Philadelphia, Pennsylvania 19103",
+        "phone": "(+1) 215-398-3040",
+        "email": "philadelphiatemple@lds.org",
+        "services": ["Clothing rental, No cafeteria, No patron housing, Distribution center nearby."],
+        "history": ["Announced: 4 October 2008, Groundbreaking: 17 September 2011, Dedicated: 18 September 2016"],
+        "facts": "The Philadelphia Pennsylvania Temple was the first temple built in the state of Pennsylvania and the fourth built in the Mid-Atlantic region of the United States. Jeffrey Stebar of the Atlanta office of Perkins+Will was selected as the lead architect for the Philadelphia Pennsylvania Temple project while serving as a counselor in the stake presidency of the Fayetteville Georgia Stake.",
+        "ordinanceSch": "All ordinances are currently by appointment only.",
+        "sessionSch": "All sessions are currently by appointment only.", 
+        "closureSch": ["19 September 2022 - 10 October 2022, 23 November 2022 - 24 November 2022, 24 December 2022 - 25 December 2022, 31 December 2022"]
+    },
+
+    {
+        "image": "salt.jpg",
+        "imageSmall": "saltsm.jpg",
+        "name": "Salt Lake Temple",
+        "streetAddress": "50 W North Temple Street",
+        "cityState": "Salt Lake City, Utah 84150",
+        "phone": "(+1) 801-240-2640",
+        "email": "saltlaketemple@lds.org",
+        "services": ["Clothing rental, No cafeteria food served, No patron housing, Distribution center nearby."],
+        "history": ["Announced: 28 July 1847, Groundbreaking: 14 February 1853, Dedicated: 6 April 1893"],
+        "facts": "The Salt Lake Temple was the fourth temple built in Utah (though its construction was started first) and the first built in the Salt Lake Valley. With its distinctive spires and statue of the angel Moroni, the Salt Lake Temple is an international symbol of the Church. The Salt Lake Temple is the largest temple (most square footage) of the Church. The Salt Lake Temple took 40 years to build with its highly ornate interior being completed in just a year.",
+        "ordinanceSch": "Temple closed for renovation.",
+        "sessionSch": "Temple closed for renovation.",
+        "closureSch": "Temple closed for renovation. Open house and rededication dates not yet announced."
+    },
+
+    {
+        "image": "nauvoo.jpg",
+        "imageSmall": "nauvoosm.jpg", 
+        "name": "Nauvoo Illinois Temple",
+        "streetAddress": "50 N Wells Street",
+        "cityState": "Nauvoo, Illinois 62354",
+        "phone": "(+1) 217-453-6252",
+        "email": "nauvootemple@lds.org",
+        "services": ["Clothing rental, No cafeteria, Patron housing available, No distribution center."],
+        "history": ["Announced: 4 April 1999, Groundbreaking: 24 October 1999, Dedicated: 27 June 2002"],
+        "facts": "The Nauvoo Illinois Temple stands on a high bluff overlooking a bend in the Mississippi River. The majestic building is a faithful reproduction of the original Nauvoo Temple built by settlers of the Church in the 1840s and destroyed by arson fire in 1848 and tornado-force winds in 1850. Featured on the grounds west of the temple is a handsome statue depicting Church founder Joseph Smith and brother Hyrum Smith on horseback; both were martyred in Carthage Jail during construction of the original temple.",
+        "ordinanceSch": "All ordinances are currently by appointment only.",
+        "sessionSch": "All sessions are currently by appointment only.",
+        "closureSch": ["26 September 2022 - 24 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"]
+    },
+
+    {
+        "image": "palmyra.jpg",
+        "imageSmall": "palmyrasm.jpg",
+        "name": "Palmyra New York Temple",
+        "streetAddress": "2720 Temple Road",
+        "cityState": "Palmyra, New York 14522",
+        "phone": "(+1) 315-597-6001",
+        "email": "palmyratemple@lds,org",
+        "services": ["No clothing rental, No cafeteria, No patron housing available, Distribution center nearby."],
+        "history": ["Announced: 21 February 1999, Groundbreaking: 25 May 1999, Dedicated: 6 April 2000"],
+        "facts": "The Palmyra New York Temple was the first temple built in the state of New York. The Palmyra New York Temple was the 100th announced temple of the Church.The Palmyra New York Temple was dedicated on April 6, 2000, exactly 170 years after The Church of Jesus Christ of Latter-day Saints was formally organized in Fayette, New York, on April 6, 1830.",
+        "ordinanceSch": "All ordinances are currently by appointment only.",
+        "sessionSch": "All sessions are currently by appointment only.",
+        "closureSch": ["12 September 2022 - 26 September 2022, 1 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"]
+    },
+
+    {
+        "image": "washington.jpg",
+        "imageSmall": "washingtonsm.jpg",
+        "name": "Washington D.C. Temple",
+        "streetAddress": "9900 Stoneybrook Drive",
+        "cityState": "Kensington, Maryland 20895",
+        "phone": "(+1) 301-588-0650",
+        "email": "washingtondctemple@lds.org",
+        "services": ["Clothing rental, No cafeteria food served, No patron housing available, Distribution center nearby."],
+        "history": ["Announced: 15 November 1968, Groundbreaking: 7 December 1968, Dedicated: 19 November 1974, Rededication: 14 August 2022"],
+        "facts": "The Washington D.C. Temple was the first temple built in the Eastern United States.Soaring to a height of 288 feet, the Washington D.C. Temple is the tallest temple in the Church. The Washington D.C. Temple is one of only five temples featuring an angel Moroni statue holding the gold plates. The exterior of the D.C. Temple is faced in white Alabama marble, symbolizing purity and enlightenment, which is shaved to 5/8 of an inch in some areas to allow a soft glow of sunlight to pass into the interior during the day.",
+        "ordinanceSch": "Temple closed for renovation.",
+        "sessionSch": "Temple closed for renovation.",
+        "closureSch": "Temple closed for renovation. Open house and rededication on 14 August 2022."
+    },
+
+    {
+        "image": "mesa.jpg",
+        "imageSmall": "mesasm.jpg",
+        "name": "Mesa Arizona Temple",
+        "streetAddress": "101 South LeSueur",
+        "cityState": "Mesa, Arizona 85204",
+        "phone": "(+1) 480-833-1211",
+        "email": "mesaarizonatemple@lds.org",
+        "services": ["Clothing rental, No cafeteria, No patron housing available, Distribution center nearby."],
+        "history": ["Announced: 1 October 1919, Groundbreaking: 25 April 1922, Dedicated: 23 October 1927, Rededication: 15 April 1975, Rededication: 12 December 2021"],
+        "facts": "The Mesa Arizona Temple was the first temple built in Arizona. The Mesa Arizona Temple was the first temple to reopen to the public for an open house prior to a rededication. The Mesa Arizona Temple was originally named the Arizona Temple. The presentation of the endowment was originally delivered by live acting in the Mesa Arizona Temple.",
+        "ordinanceSch": "All ordinances are currently by appointment only.",
+        "sessionSch": "All sessions are currently by appointment only.",
+        "closureSch": "18 July 2022 - 1 August 2022, 1 October 2022, 24 November 2022, 24 December 2022, 31 December 2022"
+    }
+  ]
+}

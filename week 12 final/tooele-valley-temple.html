@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Temple Inn & Suites Home Page</title>
+    <meta
+      name="description"
+      content="Home page for the Temple Inn & Suites hotel where 
+    temple workers and patrons can stay when traveling to work in or attend the temple."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Gwendolyn:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="ticon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/tlogo.svg"
+        alt="Temple Inn & Suites Logo"
+        class="logo"
+      />
+      <h1>Temple Inn & Suites</h1>
+    </header>
+
+    <nav>
+      <a id="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li id="current-page"><a href="temples.html">Temples</a></li>
+        <li><a href="guest-portal.html">Guest Portal</a></li>
+        <li><a href="reservation.html">Book Reservation</a></li>
+      </ul>
+    </nav>
+    <main class="fade">
+      <section class="threeColumn">
+        <div class="bubble">
+          <h2>Tooele Valley Temple</h2>
+          <picture id="templeImage">
+            <source srcset="x.jpg" media="(max-width: 600px)" />
+            <img
+              src="x.jpg"
+              class="featured"
+              alt="If this image is displayed, the script failed to execute properly."
+            />
+          </picture>
+          <ul>
+            <li>
+              <h3>Contact</h3>
+            </li>
+            <li><strong>Phone:</strong> <span id="phone"></span></li>
+            <li><strong>Location:</strong> <span id="address"></span></li>
+            <li>
+              <strong>Description:</strong> <span id="description"></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="temple-page-bubble" id="item1">
+          <h3>Services</h3>
+          <ul id="services"></ul>
+        </div>
+
+        <div class="temple-page-bubble" id="item2">
+          <h3>Ordinance Schedule</h3>
+          <ul id="ordinances"></ul>
+        </div>
+
+        <div class="temple-page-bubble" id="item3">
+          <h3>Scheduled Closures</h3>
+          <ul id="closures"></ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="hero-text">
+          <div class="quote">
+            &ldquo;To every thing there is a season, and a time to every purpose
+            under the heaven:...&rdquo; - Ecclesiastes 3:1
+          </div>
+        </div>
+      </section>
+
+      <div id="item4">
+        <h3>Current Weather</h3>
+        <img
+          class="conditions-img"
+          id="conditions-icon"
+          src="placeholder.gif"
+          alt="If this image is displayed, the javascript failed to load data from the API."
+        />
+        <ul>
+          <li>
+            <strong>Currently: <span id="windTemp"></span>&deg;</strong>
+          </li>
+          <li>
+            <strong>Condition:</strong> <span id="current-weather"></span>
+          </li>
+          <li><strong>High:</strong> <span id="temp-high"></span>&deg;</li>
+          <li>
+            <strong>Wind Chill:</strong> <span id="windChill"></span>&deg;
+          </li>
+          <li><strong>Humidity:</strong> <span id="humid"></span>%</li>
+          <li><strong>Wind Speed:</strong> <span id="windSpeed"></span> MPH</li>
+        </ul>
+      </div>
+
+      <div class="center">
+        <a href="salt-lake-temple.html">Salt Lake Temple</a> |
+        <a href="jordan-river-temple.html">Jordan River Temple</a> |
+        <a href="draper-temple.html">Draper Temple</a> |
+        <a href="tooele-valley-temple.html">Tooele Valley Temple</a>
+      </div>
+
+      <section>
+        <h3>Please Note</h3>
+        <p>
+          While every effort is made to be sure that the information on this
+          page is up to date, we cannot guarantee its accuracy. Please visit the
+          official Church website for the most current information.
+          <a href="https://www.lds.org/temples/list?lang=eng">Click Here</a> for
+          the official Church list.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div>
+          <img
+            id="bottom-logo"
+            src="images/tlogo.svg"
+            alt="Temple Inn Logo"
+            width="150"
+          />
+        </div>
+        <div class="address">
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300 <br />Bethesda, MD 20814</p>
+        </div>
+        <div class="web">
+          <p>templeinnandsuites.com <br />(386) 248-2424</p>
+          <a href="https://goo.gl/maps/FRgi5k49Jti4teqC9"
+            ><img id="pin" src="images/pin.svg" alt="Location Pin" width="20" />
+            Location Map</a
+          >
+        </div>
+      </section>
+      <hr />
+      <p id="temple-foot">
+        &copy; <span id="currentYear"></span> Temple Inn & Suites |
+        <a href="contact.html">Contact Us</a> |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | Last
+        Updated: <span id="modDate"></span>
+      </p>
+      <p class="sub-footer">
+        <a href="attributions.html">Attributions</a> |
+        <span>Samuel Olanrewaju Okoosi</span>
+      </p>
+      <script src="js/main-script.js"></script>
+      <script src="js/menu-script.js"></script>
+      <script src="js/tooele-valley-data.js"></script>
+    </footer>
+  </body>
+</html>

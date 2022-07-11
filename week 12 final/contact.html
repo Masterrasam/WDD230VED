@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Temple Inn & Suites</title>
+    <meta
+      name="description"
+      content="Home page for the Temple Inn & Suites hotel where 
+    temple workers and patrons can stay when traveling to work in or attend the temple."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Gwendolyn:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="templogo.ico" />
+  </head>
+
+  <body>
+    <main>
+      <div class="scroll dc-scroll"></div>
+      <header>
+        <a href="index.html" title="Home Page"
+          ><img
+            class="head-logo"
+            src="images/tlogow.svg"
+            alt="Temple Inn Logo"
+            width="125"
+        /></a>
+        <h1>Temple Inn & Suites</h1>
+      </header>
+      <nav>
+        <a class="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+          <li>
+            <a href="index.html" title="Home Page">Home</a>
+          </li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li>
+            <a href="contact.html" title="Contact Page" class="active"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="grid-two">
+        <section class="mobile-border con2 pink-background black-border">
+          <div class="con-para underline">
+            <h2>Contact Temple Inn & Suites</h2>
+            <br />
+            <br />
+            <p>
+              If you have questions about the Temple Inn & Suites locations or
+              any other concern, please feel free to call us during regular
+              business hours at (386) 248-2424. Leave us a message and we will
+              return your call promptly.
+            </p>
+            <br />
+            <p>
+              If you would like to make a reservation at one of our Temple Inn &
+              Suites locations, <a href="reservations.html">click here</a> for
+              the reservations page.
+            </p>
+            <br />
+            <p>
+              If you have a comment about any of our hotels or you would like to
+              let us know about an experience you had with any of our special
+              services, please e-mail us at:
+              <a href="contact.html"> thetempleinn@suites.com</a>
+            </p>
+            <br />
+            <br />
+            <p>Any other packages or correspondence should be mailed to:</p>
+          </div>
+          <div class="con-address">
+            <picture
+              ><img
+                class="head-logo"
+                src="images/tlogow.svg"
+                alt="Temple Inn Logo"
+                width="125"
+            /></picture>
+            <br />
+            <br />
+            <p>Temple Inn & Suites</p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+          </div>
+        </section>
+
+        <form
+          class="con-form pink-background black-border mobile-border"
+          method="get"
+          action="thanks.html"
+        >
+          <fieldset>
+            <legend>Contact Us</legend>
+            <label
+              >First Name*<span class="required"></span>
+              <input type="text" name="fname" required />
+            </label>
+            <label
+              >Last Name*<span class="required"></span>
+              <input type="text" name="lname" required />
+            </label>
+            <label
+              >Email*<span class="required"></span>
+              <input type="email" name="email" required />
+            </label>
+            <label
+              >Phone*<span class="required"></span>
+              <input type="tel" name="phone" required />
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Question/Comments*<span class="required"></span></legend>
+            <label>
+              <textarea name="description" rows="7" required> </textarea>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferred Method of Contact</legend>
+            <div>
+              <label class="check"
+                ><input type="radio" class="circle" name="email" value="yes" />
+                &nbsp; Email</label
+              >
+              <br />
+              <label class="check"
+                ><input type="radio" class="circle" name="phone" value="no" />
+                &nbsp; Phone Call</label
+              >
+              <br />
+              <label class="check"
+                ><input
+                  type="radio"
+                  class="circle"
+                  name="text"
+                  value="unknown"
+                />
+                &nbsp; Text Message</label
+              >
+            </div>
+          </fieldset>
+
+          <button type="hidden" value="submit">
+            Submit Question or Comment
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <section class="lower">
+        <div class="address">
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300 <br />Bethesda, MD 20814</p>
+        </div>
+        <picture>
+          <a href="index.html" title="Home Page"
+            ><img
+              class="bottom-logo"
+              src="images/tlogo.svg"
+              alt="Temple Inn Logo"
+              width="175"
+          /></a>
+        </picture>
+        <div class="web">
+          <p>templeinnandsuites.com <br />(386) 248-2424</p>
+          <a href="https://goo.gl/maps/27evP6eLSRjtyyzH7">
+            <img src="images/pin.svg" alt="Location Pin" width="20" />Location
+            Map</a
+          >
+          <br />
+          <a href="https://www.facebook.com/" target="blank">
+            <img
+              class="social"
+              src="images/facebook.svg"
+              alt="Facebook Icon"
+              width="40"
+          /></a>
+          <a href="https://www.instagram.com/" target="blank">
+            <img
+              class="social"
+              src="images/instagram.svg"
+              alt="Instagram Icon"
+              width="40"
+          /></a>
+          <a href="https://www.twitter.com/" target="blank">
+            <img
+              class="social"
+              src="images/twitter.svg"
+              alt="Twitter Icon"
+              width="40"
+          /></a>
+        </div>
+      </section>
+      <hr />
+      <br />
+      <p class="temple-foot">
+        &copy; <span id="currentYear"></span> Temple Inn & Suites |
+        <a href="contact.html">Contact Us</a> |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | Last
+        Updated: <span id="modDate"></span>
+      </p>
+      <p class="sub-footer">
+        <a href="attributions.html">Attributions</a> |
+        <span>Samuel Olanrewaju Okoosi</span>
+      </p>
+      <script src="js/main-script.js"></script>
+      <script src="js/menu-script.js"></script>
+      <script src="js/weather.js"></script>
+    </footer>
+  </body>
+</html>

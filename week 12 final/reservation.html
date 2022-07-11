@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Temple Inn & Suites</title>
+    <meta
+      name="description"
+      content="Home page for the Temple Inn & Suites hotel where 
+    temple workers and patrons can stay when traveling to work in or attend the temple."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Gwendolyn:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="templogo.ico" />
+  </head>
+
+  <body>
+    <main>
+      <div class="scroll dc-scroll"></div>
+      <header>
+        <a href="index.html" title="Home Page"
+          ><img
+            class="head-logo"
+            src="images/tlogow.svg"
+            alt="Temple Inn Logo"
+            width="125"
+        /></a>
+        <h1>Temple Inn & Suites</h1>
+      </header>
+
+      <nav>
+        <a class="menu-link" onclick="hamburgerMenu()">&#9776; Menu</a>
+        <ul class="menu">
+          <li>
+            <a href="index.html" title="Home Page">Home</a>
+          </li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li>
+            <a href="reservation.html" title="Reservations" class="active"
+              >Reservations</a
+            >
+          </li>
+          <li><a href="contact.html" title="Contact Page">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <section class="block wh">
+        <div class="welcome">
+          <img
+            class="welcome-image"
+            src="images/dcflower.webp"
+            alt="A view of the Temple from the hotel front."
+            width="150"
+          />
+        </div>
+        <div class="welcome-para">
+          <h2 class="sec-image">Make Your Reservation Today!</h2>
+          <br />
+          <p>
+            At Temple Inn & Suites, we are dedicated to helping our guests have
+            a wonderful experience during their stay with us and while they
+            attend the temple. Please fill out the reservation form below.
+            Please include details about the reason you are coming to stay with
+            us so that we can serve you best during your visit. Thank you for
+            choosing Temple Inn & Suites, we look forward to your stay with us.
+          </p>
+        </div>
+      </section>
+
+      <div class="heading-banner">
+        <h2>Reservation</h2>
+      </div>
+
+      <form class="res-form pink-background black-border mobile-border">
+        <div>
+          <fieldset class="con1">
+            <legend>Guest Information</legend>
+            <div class="grid-two">
+              <label
+                >First Name*<span class="required"></span>
+                <input type="text" name="first name" required />
+              </label>
+              <label
+                >Last Name*<span class="required"></span>
+                <input type="text" name="last name" required />
+              </label>
+            </div>
+            <div class="grid-two">
+              <label
+                >Email*<span class="required"></span>
+                <input type="email" name="email" required />
+              </label>
+              <label
+                >Phone*<span class="required"></span
+                ><input type="tel" name="phone" required
+              /></label>
+            </div>
+            <label
+              >Address*<span class="required"></span
+              ><input type="text" name="address" required
+            /></label>
+            <br />
+            <p>Reason For Your Stay:</p>
+            <br />
+            <label class="check"
+              ><input type="radio" class="circle" name="email" /> &nbsp; Temple
+              Patron</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="phone" /> &nbsp; Temple
+              Worker</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="text" /> &nbsp;
+              Missionary Assignment</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="text" /> &nbsp;
+              Wedding</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="text" /> &nbsp;
+              Other</label
+            >
+          </fieldset>
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>Select Dates & Destination</legend>
+            <p>Select Dates:</p>
+            <div class="grid-two">
+              <label for="startDate"
+                >From*<input
+                  type="date"
+                  id="startDate"
+                  name="startDate"
+                  required
+              /></label>
+              <label for="endDate"
+                >To*<input
+                  type="date"
+                  id="endDate"
+                  name="endDate"
+                  max="2020-12-31"
+                  required
+              /></label>
+            </div>
+            <div class="grid-two">
+              <label
+                >Select Location:
+                <select name="area" required>
+                  <option selected disabled value="">
+                    Select Hotel Location &#9662;
+                  </option>
+                  <option value="philadelphia">
+                    Philadelphia - Temple Inn & Suites
+                  </option>
+                  <option value="boston">Boston - Temple Inn & Suites</option>
+                  <option value="connecticut">
+                    Connecticut - Temple Inn & Suites
+                  </option>
+                  <option value="salt lake">
+                    Salt Lake - Temple Inn & Suites
+                  </option>
+                </select>
+              </label>
+              <label
+                >Number of Guests:
+                <select name="area" required>
+                  <option selected disabled value="">
+                    # of Guests &#9662;
+                  </option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">1 Guests</option>
+                  <option value="6">2 Guests</option>
+                  <option value="7">3 Guests</option>
+                  <option value="8">4 Guests</option>
+                </select>
+              </label>
+            </div>
+            <label
+              >Special accommodations?
+              <textarea name="accommodations" rows="7"> </textarea>
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Preferred Method of Contact(s)</legend>
+            <label class="check"
+              ><input type="radio" class="circle" name="email" value="yes" />
+              &nbsp; Email</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="phone" value="no" />
+              &nbsp; Phone Call</label
+            >
+            <label class="check"
+              ><input type="radio" class="circle" name="text" value="unknown" />
+              &nbsp; Text Message</label
+            >
+          </fieldset>
+        </div>
+        <button class="" type="hidden" value="submit">Make Reservation</button>
+      </form>
+    </main>
+
+    <footer>
+      <section class="lower">
+        <div class="address">
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300 <br />Bethesda, MD 20814</p>
+        </div>
+        <picture>
+          <a href="index.html" title="Home Page"
+            ><img
+              class="bottom-logo"
+              src="images/tlogo.svg"
+              alt="Temple Inn Logo"
+              width="175"
+          /></a>
+        </picture>
+        <div class="web">
+          <p>templeinnandsuites.com <br />(386) 248-2424</p>
+          <a href="https://goo.gl/maps/27evP6eLSRjtyyzH7">
+            <img
+              id="pin"
+              src="images/pin.svg"
+              alt="Location Pin"
+              width="20"
+            />Location Map</a
+          >
+          <br />
+          <a href="https://www.facebook.com/" target="blank">
+            <img
+              class="social"
+              src="images/facebook.svg"
+              alt="Facebook Icon"
+              width="40"
+          /></a>
+          <a href="https://www.instagram.com/" target="blank">
+            <img
+              class="social"
+              src="images/instagram.svg"
+              alt="Instagram Icon"
+              width="40"
+          /></a>
+          <a href="https://www.twitter.com/" target="blank">
+            <img
+              class="social"
+              src="images/twitter.svg"
+              alt="Twitter Icon"
+              width="40"
+          /></a>
+        </div>
+      </section>
+      <hr />
+      <br />
+      <p class="temple-foot">
+        &copy; <span id="currentYear"></span> Temple Inn & Suites |
+        <a href="contact.html">Contact Us</a> |
+        <a href="https://openweathermap.org//">OpenWeatherMap.org</a> | Last
+        Updated: <span id="modDate"></span>
+      </p>
+      <p class="sub-footer">
+        <a href="attributions.html">Attributions</a> |
+        <span>Samuel Olanrewaju Okoosi</span>
+      </p>
+      <script src="js/main-script.js"></script>
+      <script src="js/menu-script.js"></script>
+      <script src="js/weather.js"></script>
+    </footer>
+  </body>
+</html>
