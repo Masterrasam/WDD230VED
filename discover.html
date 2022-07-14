@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page for SAMMY Chamber of Commerce</title>
+    <title>Demographic Information and Picture Gallery for SAMMY Chambers</title>
     <meta
       name="description"
-      content="The homepage for the Hollyhill Chamber of Commerce to showcase 
-      businesses in the area, help business owners network, help new people 
-      moving into the area find businesses and discover activities, events, weather 
-      and how to join the chamber."
+      content="The demographic and photo gallery for the SAMMY Chamber of Commerce site. 
+      Showing the population, income, race, marital status. 
+      A gallery of photos to showcase what a beautiful area SAMMY WORLD is and what it has to offer."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" 
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
       rel="stylesheet"
     />
     <link
@@ -30,31 +29,32 @@
   <body>
     <header>
       <picture id="toplogo">
-        <source srcset="images/sam.jpg" media="(min-width: 600px)" />
-        <img src="images/sam.jpg" alt="Sammy Logo" />
+        <img src="images/sam.jpg" alt="SAMMY Logo" />
       </picture>
       <h1>
-        SAMMY<span id="smtitle"><br /> Chamber of Commerce</span>
+        SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
       </h1>
       <div class="social">
         <a href="https://www.facebook.com/" target="blank"
-          ><img src="images/fbicon.webp" alt="Facebook Icon" width="35"
+          ><img src="images/fbicon.webp" alt="Facebook Icon"
         /></a>
         <a href="https://www.twitter.com/" target="blank">
-          <img src="images/twit.webp" alt="Twitter Icon" width="35"
+          <img src="images/twit.webp" alt="Twitter Icon"
         /></a>
       </div>
       <button id="menuButton"><span>&#9776;</span><span>X</span></button>
       <nav>
         <ul id="mainNav">
-          <li><a href="index.html" title="Sammy Home Page">Home</a></li>
+          <li><a href="index.html" title="SAMMY Home Page">Home</a></li>
           <li>
             <a href="discover.html" title="Town Information" class="active"
               >Discover</a
             >
           </li>
           <li><a href="directory.html">Directory</a></li>
-          <li><a href="join.html">Join</a></li>
+          <li>
+            <a href="join.html" title="Join the SAMMY Chambers">Join</a>
+          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -62,11 +62,14 @@
     <div id="currentDate">
       <span>Date</span>
     </div>
-
+    <aside id="banner">
+      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." - - -
+      - - &nbsp;<button id="close">&#10060;</button>
+    </aside>
     <main>
       <section class="gallery-page">
         <div class="gallery">
-          <h2 class="tgallery">Sammy Gallery</h2>
+          <h2 class="tgallery">SAMMY Photo Gallery</h2>
           <picture>
             <img
               src="images/bow.webp"
@@ -79,18 +82,18 @@
             <img
               src="images/bow.webp"
               data-src="images/castle.jpg"
-              alt="sammy Castle"
+              alt="Sammy Castle"
             />
           </picture>
-          <p>dream castle of sammy </p>
+          <p>Dream castle of Sammy</p>
           <picture>
             <img
               src="images/bow.webp"
               data-src="images/vill.jpg"
-              alt="vill"
+              alt="Vill"
             />
           </picture>
-          <p>Ranchers Village  Celebration</p>
+          <p>Rancher's Village Celebration</p>
           <picture>
             <img
               src="images/bow.webp"
@@ -114,7 +117,7 @@
               alt="Covered Bridge"
             />
           </picture>
-          <p>The  Bridge of Sammy</p>
+          <p>The Bridge of Sammy</p>
           <picture>
             <img
               src="images/bow.webp"
@@ -122,80 +125,88 @@
               alt="River Cafe"
             />
           </picture>
-          <p>The River Cafe on Sammy</p>
-          <picture>
-            <img
-              src="images/bow.webp"
-              data-src="images/vines.jpg"
-              alt="Secret Garden"
-            />
-          </picture>
-          <p>Sammy Town Square</p>
+          <p>SAMMY Secret Place</p>
         </div>
-        <div class="towninfo">
-          <div>
-            <h3>Hollyhill Equestrian Center</h3>
-            <picture>
-              <source
-                srcset="images/horse.webp"
-                media="(min-width: 600px) and (max-width: 999px)"
-              />
-              <source
-                srcset="images/horse.webp"
-                media="(min-width: 1000px)"
-              />
-              <img src="images/horse.webp" alt="Horseback Riding" />
-            </picture>
-            <p>
-              Riding and jumping lessons available at the new Holly
-              Equestrian Center.
-            </p>
-            <hr />
-            <p>
-              <b>www.hollyhillequestrian.com<br />832-238-6410</b>
-            </p>
-          </div>
-
-          <div>
-            <h3>Amusement park </h3>
-            <picture>
-              <source
-              srcset="images/amuse.jpg"
-              media="(min-width: 600px} and (max-width:999px)"
-              />
-              <source srcset="images/amuse.jpg" media="(min-width: 1000px)"/>
-              <img src="images/" alt="Amusement Park" />
-            </picture>
-            <p>
-              A new amusement is to be opened in lycon avenue  on August 23,where families can go and have fun and make memories with their kids
-            </p>
-            <hr />
-            <p>
-              <b>2901 Osceola Parkway, Orlando, Florida 32830<br />407-939-527</b>
-            </p>
-          </div>
-          <div>
-
-            <h3>Historic Wedgewood Inn</h3>
-            <picture>
-              <source
-                srcset="images/inn437.webp"
-                media="(min-width: 600px) and (max-width: 999px)"
-              />
-              <source srcset="images/inn300.webp" media="(min-width: 1000px)" />
-              <img src="images/inn486.webp" alt="Wedgewood Inn" />
-            </picture>
-            <p>
-              Grand opening of the newly renovated and historic Wedgewood Inn on
-              August 5th.
-            </p>
-            <hr />
-            <p>
-              <b>www.wedgewoodinn.com<br />832-238-0146</b>
-            </p>
-          </div>
-          <div>
-          
+        <h3 class="tgallery dem-title">
+          Demographic Information for SAMMY
+        </h3>
+        <div class="demographics">
+          <p><b>What is the population of SAMMY?</b></p>
+          <p>
+            There are 5,200 residents in SAMMY, with a median age of 40.1
+            years, 52.13% males and 47.87% females. US-born citizens make up
+            70.68% of the residents, non-US-born citizens account for 8.66%, and
+            6.66% are non-citizens. A total of 6,240 people in SAMMY
+            currently live in the same house as they did last year.
+          </p>
+          <picture class="chart">
+            <img src="images/population.webp" alt="Population Chart" />
+          </picture>
+          <p><b>What are the employment statistics in SAMMY?</b></p>
+          <p>
+            White-collar workers make up 87.61% of the working population in
+            SAMMY, while blue-collar employees account for 9.39%. There are
+            1,140 entrepreneurs in SAMMY (31.65% of the workforce); 3,246
+            workers employed in private companies (71.87%); and 609 people
+            working in governmental institutions (15.54%).
+          </p>
+          <picture class="chart">
+            <img src="images/employment.webp" alt="Employment Chart" />
+          </picture>
+          <p><b>What are the median and average incomes in SAMMY?</b></p>
+          <p>
+            The average annual household income in SAMMY is $150,004, while
+            the median household income is $80,669 per year.
+          </p>
+          <picture class="chart">
+            <img src="images/income.webp" alt="Income Chart" />
+          </picture>
+          <p><b>What is the marital status of SAMMY residents?</b></p>
+          <p>
+            A total of 1,798 people in SAMMY have never been married
+            (21.34%), while 3,230 of them are wedded (46.26%).
+          </p>
+          <picture class="chart">
+            <img src="images/marital.webp" alt="Marital Status Chart" />
+          </picture>
+          <p><b>What is the level of education in SAMMY?</b></p>
+          <p>
+            Approximately 14.62% of the population in Sammy holds a high
+            school degree (989 residents), while 18.38% have attained a college
+            certificate (1,200) and 42.30% have a bachelor's degree (2,800).
+          </p>
+          <picture class="chart">
+            <img src="images/education.webp" alt="Education Chart" />
+          </picture>
+          <h3 class="tgallery explore">Explore SAMMY</h3>
+          <p>
+            The little town of SAMMY is beautiful and historic. Surrounded
+            by trees, rivers, and lakes, it doesn't get more scenic than
+            SAMMY. There is so much to do in the town center. There are
+            endless shops and restaurants going up and down Broadway. There is
+            also an old train station, historic old jail, the Opera house, and
+            various hotels and churches. One of the main town attractions are
+            the mansions on top of the hill that can be toured daily. The clock
+            tower chimes on the hour and is a traditional fixture in the
+            community. Ghost tours are offered every weekend.
+          </p>
+          <picture>
+            <source
+              srcset="images/map.webp"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source srcset="images/map.webp" media="(min-width: 1000px)" />
+            <img src="images/map.webp" alt="SAMMY Map" />
+          </picture>
+        </div>
+        <div class="visit-distance">
+          <h3 class="tgallery">Page Visits</h3>
+          <p>
+            <span class="counter">Number of Visits to Page: </span
+            ><span class="visits"></span>
+          </p>
+          <p>Days Since Last Visit: <span class="days"></span></p>
+        </div>
       </section>
     </main>
     <footer>
@@ -206,6 +217,7 @@
             src="images/sam.jpg"
             alt="Sammy Logo"
           />
+          
         </div>
         <div class="address">
           <h3>Sammy Chamber of Commerce</h3>
@@ -226,5 +238,6 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/lazyload.js"></script>
+    <script src="js/visitcounter.js"></script>
   </body>
 </html>
