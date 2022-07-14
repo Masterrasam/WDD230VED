@@ -68,7 +68,7 @@ header #toplogo img {
 
 /* ------Main----- */
 main { 
-    background: linear-gradient(0.25turn, #8c181b,white, #21409a);
+    background: linear-gradient(0.25turn, #8c181b,rgb(20, 12, 12), #b60ba8);
     border-top: 10px solid #ffffff;
     border-bottom: 10px solid #ffffff;
     padding: 10px;
