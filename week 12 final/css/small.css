@@ -63,12 +63,12 @@
     top: 40px;
     width: 100%;
     padding: 10px 3rem 10px;
-    border-top: 4px solid #7294b2;
+    border-top: 4px solid #450f8d;
     background: linear-gradient(
       to right,
       rgba(214, 182, 194, 0.08),
       rgba(214, 182, 194, 0.6),
-      rgba(214, 182, 194, 1)
+      rgb(9, 216, 231)
     );
     display: flex;
     justify-content: flex-end;
@@ -88,9 +88,9 @@
   
   /*====Navigation Menu====*/
   nav {
-    background-color: #d6b6c2;
-    border-top: 4px solid #7294b2;
-    border-bottom: 4px solid #7294b2;
+    background-color: #c7a7f1;
+    border-top: 4px solid #0f1214;
+    border-bottom: 4px solid #18d3ca;
     text-align: center;
     padding: 10px;
     font-size: 1.05rem;
@@ -109,7 +109,7 @@
   nav .active {
     font-weight: 700;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #7294b2;
+    -webkit-text-stroke-color: #3790e4;
   }
   
   .menu-link:hover {
@@ -118,11 +118,11 @@
   }
   
   nav li:hover a {
-    color: #7294b2;
+    color: #22dad1;
   }
   
   nav li:hover {
-    background-color: #fffbfe;
+    background-color: #aaa6aa;
   }
   
   .menu {
@@ -137,7 +137,7 @@
   
   /*====Footer====*/
   footer {
-    background-color: #324f69;
+    background-color: #450f8d;
     color: #ffffff;
     text-align: center;
     font-size: 1em;
@@ -184,8 +184,8 @@
   button {
     font-size: 1rem;
     color: white;
-    background-color: #7294b2;
-    border: 4px solid #d6b6c2;
+    background-color: #450f8d;
+    border: 4px solid #22acac;
     border-radius: 50px;
     padding: 8px 15px;
   }
@@ -214,10 +214,10 @@
     background: linear-gradient(
       to right,
       rgba(214, 182, 194, 0.2),
-      rgba(214, 182, 194, 1)
+      rgb(44, 4, 97)
     );
-    border-top: 4px solid #7294b2;
-    border-bottom: 4px solid #7294b2;
+    border-top: 4px solid #2ed6ce;
+    border-bottom: 4px solid #3bc7f1;
     font-family: "Gwendolyn", cursive;
     padding: 15px 3rem 15px;
     text-align: center;
@@ -231,17 +231,17 @@
   .pink-background {
     background: linear-gradient(
       to top,
-      rgba(214, 182, 194, 1),
+      rgb(44, 4, 97),
       rgba(214, 182, 194, 0.2),
-      rgba(214, 182, 194, 1)
+      rgb(44, 4, 97)
     );
   }
   
   .blue-background {
     background: linear-gradient(
       to top,
-      rgba(114, 148, 178, 0.2),
-      rgba(114, 148, 178, 1)
+      rgba(8, 190, 136, 0.2),
+      rgb(44, 4, 97)
     );
   }
   
@@ -289,7 +289,7 @@
   /*====Welcome on Homepage====*/
   .welcome-image {
     border-radius: 150px 150px 0 0;
-    border: 5px solid #7294b2;
+    border: 5px solid #2ebbd4;
     margin: 10px 0px 15px 0px;
   }
   
@@ -329,7 +329,7 @@
     border: 1px solid black;
     width: 100%;
     height: 278px;
-    background: linear-gradient(white, #d6b6c2);
+    background: linear-gradient(white, #07c4e6);
     display: grid;
     margin-bottom: 20px;
   }
@@ -343,7 +343,7 @@
   .d-temp {
     padding: 1rem;
     border: 1px solid black;
-    background: linear-gradient(rgb(255, 255, 255), #d6b6c2);
+    background: linear-gradient(rgb(255, 255, 255), #0dc7e7);
     justify-content: center;
     align-items: center;
   }
@@ -390,7 +390,7 @@
   
   .serv-img {
     border-radius: 50%;
-    border: 5px solid #7294b2;
+    border: 5px solid #450f8d;
     margin: 20px auto 0;
   }
   
@@ -425,12 +425,12 @@
   
   label input:required:valid,
   select:valid {
-    border-left: #ba7b92 solid 6px;
+    border-left: #16e7ee solid 6px;
   }
   
   legend {
     padding: 5px 10px;
-    background-color: rgb(142, 102, 125);
+    background-color: rgb(44, 4, 97);
     color: white;
   }
   
@@ -486,14 +486,14 @@
     margin: 10px 0px 10px;
     background: linear-gradient(
       to left,
-      rgba(114, 148, 178, 1),
+      rgb(44, 4,97 ),
       rgba(114, 148, 178, 0),
-      rgba(114, 148, 178, 1)
+      rgb(44, 4, 97)
     );
   }
   
   .amenities img {
-    border: 5px solid #7294b2;
+    border: 5px solid #450f8d;
     align-content: center;
   }
   
