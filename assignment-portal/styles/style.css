@@ -1,0 +1,70 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+#content {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 130px auto;
+    align-items: center;
+    background-color: royalblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.image {
+    margin: 15px;
+}
+
+h1 {
+    margin: 12px;
+    font-family: 'Fredoka One', cursive, sans-serif;
+    color: seashell;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive, sans-serif;
+    text-align: left;
+}
+
+#elerunndu {
+    text-align: center;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+#some {
+    text-align: left;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+ul {
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+#last {
+    text-align: center;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+#demo {
+    text-align: center;
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+.footer {
+    background-color: royalblue;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    color: seashell;
+}
+
+@media screen and (max-width: 550px) {
+    .home-grid {
+        display: block;
+    }
+}
